@@ -19,8 +19,8 @@ export const ThemeDetectionDemo = () => {
           <div
             className={`p-6 rounded-xl text-white text-center ${
               prefersDarkMode
-                ? 'bg-gradient-to-br from-gray-800 to-gray-900'
-                : 'bg-gradient-to-br from-yellow-400 to-orange-500'
+                ? 'bg-linear-to-br from-gray-800 to-gray-900'
+                : 'bg-linear-to-br from-yellow-400 to-orange-500'
             }`}
           >
             <div className="text-6xl mb-3">
