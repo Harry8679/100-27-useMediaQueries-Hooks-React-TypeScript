@@ -15,7 +15,7 @@ export const AdaptiveGridDemo = () => {
       <div className="space-y-6">
         {/* Adaptive content based on device */}
         {isMobile && (
-          <div className="p-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl text-white">
+          <div className="p-6 bg-linear-to-br from-blue-500 to-blue-600 rounded-xl text-white">
             <div className="text-5xl mb-4">📱</div>
             <h4 className="text-2xl font-bold mb-2">Vue Mobile</h4>
             <p className="text-sm opacity-90">
@@ -34,7 +34,7 @@ export const AdaptiveGridDemo = () => {
         )}
 
         {isTablet && (
-          <div className="p-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl text-white">
+          <div className="p-6 bg-linear-to-br from-purple-500 to-purple-600 rounded-xl text-white">
             <div className="text-5xl mb-4">📱</div>
             <h4 className="text-2xl font-bold mb-2">Vue Tablette</h4>
             <p className="text-sm opacity-90 mb-4">
@@ -58,7 +58,7 @@ export const AdaptiveGridDemo = () => {
         )}
 
         {isDesktop && (
-          <div className="p-6 bg-gradient-to-br from-green-500 to-green-600 rounded-xl text-white">
+          <div className="p-6 bg-linear-to-br from-green-500 to-green-600 rounded-xl text-white">
             <div className="text-5xl mb-4">💻</div>
             <h4 className="text-2xl font-bold mb-2">Vue Desktop</h4>
             <p className="text-sm opacity-90 mb-4">
