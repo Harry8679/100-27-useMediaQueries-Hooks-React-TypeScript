@@ -1,12 +1,7 @@
-import './App.css'
+import { MediaQueryDemo } from './components/MediaQueryDemo';
 
 function App() {
-
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  return <MediaQueryDemo />;
 }
 
-export default App
+export default App;
