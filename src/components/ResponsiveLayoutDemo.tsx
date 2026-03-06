@@ -50,7 +50,7 @@ export const ResponsiveLayoutDemo = () => {
           {items.map((item) => (
             <div
               key={item.id}
-              className="p-6 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl text-white hover:scale-105 transition-transform"
+              className="p-6 bg-linear-to-br from-purple-500 to-pink-600 rounded-xl text-white hover:scale-105 transition-transform"
             >
               <div className="text-3xl font-bold mb-2">
                 {item.id}
