@@ -43,8 +43,8 @@ export const ThemeDetectionDemo = () => {
           <div
             className={`p-6 rounded-xl text-white text-center ${
               prefersReducedMotion
-                ? 'bg-gradient-to-br from-red-500 to-pink-600'
-                : 'bg-gradient-to-br from-green-500 to-teal-600'
+                ? 'bg-linear-to-br from-red-500 to-pink-600'
+                : 'bg-linear-to-br from-green-500 to-teal-600'
             }`}
           >
             <div className="text-6xl mb-3">
