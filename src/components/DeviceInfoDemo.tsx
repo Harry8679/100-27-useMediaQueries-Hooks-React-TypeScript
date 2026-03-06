@@ -39,7 +39,7 @@ export const DeviceInfoDemo = () => {
 
       <div className="space-y-6">
         {/* Device type */}
-        <div className={`p-6 bg-gradient-to-br from-${device.color}-500 to-${device.color}-600 rounded-xl text-white text-center`}>
+        <div className={`p-6 bg-linear-to-br from-${device.color}-500 to-${device.color}-600 rounded-xl text-white text-center`}>
           <div className="text-6xl mb-3">{device.icon}</div>
           <div className="text-3xl font-bold">{device.type}</div>
         </div>
