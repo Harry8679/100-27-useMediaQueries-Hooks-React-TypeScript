@@ -14,8 +14,8 @@ export const OrientationDemo = () => {
         <div
           className={`p-8 rounded-xl text-white text-center ${
             orientation === 'portrait'
-              ? 'bg-gradient-to-br from-purple-500 to-pink-600'
-              : 'bg-gradient-to-br from-blue-500 to-cyan-600'
+              ? 'bg-linear-to-br from-purple-500 to-pink-600'
+              : 'bg-linear-to-br from-blue-500 to-cyan-600'
           }`}
         >
           <div className="text-6xl mb-4">
