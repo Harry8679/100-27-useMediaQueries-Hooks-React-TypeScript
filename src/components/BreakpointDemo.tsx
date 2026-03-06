@@ -19,7 +19,7 @@ export const BreakpointDemo = () => {
 
       <div className="space-y-6">
         {/* Current breakpoint */}
-        <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl text-white text-center">
+        <div className="p-6 bg-linear-to-r from-blue-500 to-purple-600 rounded-xl text-white text-center">
           <div className="text-sm opacity-90 mb-2">Breakpoint actuel</div>
           <div className="text-5xl font-bold uppercase">{currentBreakpoint}</div>
         </div>
