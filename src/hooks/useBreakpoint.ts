@@ -16,7 +16,7 @@ export const useBreakpoint = (): UseBreakpointReturn => {
     if (isLg) return 'lg';
     if (isMd) return 'md';
     return 'sm';
-  }, [isSm, isMd, isLg, isXl, is2xl]);
+  }, [isMd, isLg, isXl, is2xl]);
 
   return {
     isSm,
